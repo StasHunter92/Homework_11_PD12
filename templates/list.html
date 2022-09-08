@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="main">
+	<div>
+		<h1>Все кандидаты</h1>
+	</div>
+	<div>
+		{% for candidate in candidates %}
+			<p>
+				<a href="/candidate/{{ candidate.id }}"><span>{{ candidate.name }}</span></a>
+			</p>
+		{% endfor %}
+	</div>
+	<form method="post" class="form">
+		<div>
+			<input class="input" type="text" name="name" placeholder="Введите имя">
+		</div>
+		<div>
+			<input type="submit" value="Найти">
+		</div>
+	</form>
+	<form method="post" class="form">
+		<div>
+			<input class="input" type="text" name="skill" placeholder="Введите навык">
+		</div>
+		<div>
+			<input type="submit" value="Найти">
+		</div>
+	</form>
+</div>
+{% endblock %}

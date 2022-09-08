@@ -1,0 +1,105 @@
+/*  Main style
+-----------------------------------------------------------------------------*/
+body {
+    background-color: #282828;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Text style
+-----------------------------------------------------------------------------*/
+a:visited {
+    color: #B16286;
+}
+
+h2 {
+    color: #282828;
+    font-family: "Segoe UI", serif;
+    font-size: 1em;
+}
+
+mark {
+    background-color: #FABD2F;
+}
+
+p {
+    color: #282828;
+    font-family: "Segoe UI", serif;
+    margin: 0;
+}
+
+/*  Profile style
+-----------------------------------------------------------------------------*/
+.bottom_icon {
+    align-items: center;
+    display: flex;
+    height: 46px;
+}
+
+.bottom_icon_box {
+    height: 24px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -5px -5px 20px rgba(100, 100, 100, 0.8), 5px 5px 20px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    height: 843px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    min-width: 470px;
+    width: 470px;
+}
+
+.card_bottom {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.header_icon {
+    margin-left: 12px;
+}
+
+.header_text {
+    margin-left: 10px;
+}
+
+.photo_box {
+    display: flex;
+    max-height: 470px;
+}
+
+/*  Image style
+-----------------------------------------------------------------------------*/
+.bottom_icon_image {
+    padding-right: 16px;
+    width: 24px;
+}
+
+.icon {
+    background: linear-gradient(45deg, red 20%, orange 50%);
+    border-color: rgba(0, 0, 0, .1);
+    border-radius: 21px;
+    border-style: solid;
+    border-width: 3px;
+    height: 32px;
+    object-fit: cover;
+    width: 32px;
+}
+
+.image {
+    object-fit: cover;
+    width: 470px;
+}
